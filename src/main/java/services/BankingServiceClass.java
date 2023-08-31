@@ -12,14 +12,15 @@ public class BankingServiceClass {
     private List<Customer> customerList;
     private List<Transaction> transactionList;
 
-    public BankingServiceClass(List<Customer> customerList, List<Transaction> transactionList) {
+    public BankingServiceClass() {
         this.customerList = new ArrayList<>();
         this.transactionList = new ArrayList<>();
     }
 
 
-    public void addCustomer(Customer castomer){
-        customerList.add(castomer);
+    public void addCustomer(Customer customer){
+
+        customerList.add(customer);
     }
 
     public Customer findCustomer(String customerId){
@@ -62,6 +63,10 @@ public class BankingServiceClass {
         }else {
                 System.out.println("Account not found");
             }
+        }
+
+        public List<Customer> getCustomerList(){
+        return customerList;
         }
 
 

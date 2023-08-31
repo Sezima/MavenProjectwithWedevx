@@ -41,7 +41,7 @@ public class BancAccount {
     // where the object the class only has a constractor and getters and setter and not toom many things in there
 
     // in models we are basically creatind data types our custom data types for our project in the customer class.
-
+// if you have pojo you don't need to create unit tests
 
 
 
