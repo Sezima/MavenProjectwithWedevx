@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/DatatableTransformers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DataTableDemoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DataTableDemoStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/DataTableDemo.feature" afterDir="false" />
@@ -57,8 +60,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="models" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Process Orders">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Process Orders 2">
     <configuration name="Feature: DataTableDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
@@ -66,24 +72,6 @@
       <module name="MavenJunitWedevx" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: DataTableDemo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: HowToRunSenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MavenJunitWedevx" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: HowToRunSenarios" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +92,25 @@
       <option name="NAME_FILTER" value="^Demo String params$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Demo String params$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Demo String params" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Process Orders 2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MavenJunitWedevx" />
+      <option name="NAME_FILTER" value="^Process Orders 2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Process Orders 2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Process Orders 2" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Process Orders 2" />
+        <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
         <item itemvalue="Cucumber Java.Scenario: Process Orders" />
         <item itemvalue="Cucumber Java.Scenario: Transfer funds between different currency accounts" />
-        <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
         <item itemvalue="Cucumber Java.Scenario: Demo String params" />
-        <item itemvalue="Cucumber Java.Feature: HowToRunSenarios" />
       </list>
     </recent_temporary>
   </component>

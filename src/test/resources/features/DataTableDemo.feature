@@ -30,23 +30,22 @@ Feature: Banking Operations
   Scenario: Transfer funds between different currency accounts
     Given the following bank accounts with their respective balances:
 #    row index 0
-      | Account Number | Currency | Balance   |
+      | Account Number | Currency | Balance |
 #      row index 1
 #      also with colum
-      | A-12345        | USD      | $1000     |
-      | B-67890        | EUR      | €800      |
-      | C-24680        | GBP      | £500      |
+      | A-12345        | USD      | $1000   |
+      | B-67890        | EUR      | €800    |
+      | C-24680        | GBP      | £500    |
     When I transfer the following amounts between accounts:
       | From Account | To Account | Transfer Amount | Transfer Currency |
-      | A-12345      | B-67890    | $300            | EUR              |
-      | B-67890      | C-24680    | €200            | GBP              |
-      | C-24680      | A-12345    | £100            | USD              |
+      | A-12345      | B-67890    | $300            | EUR               |
+      | B-67890      | C-24680    | €200            | GBP               |
+      | C-24680      | A-12345    | £100            | USD               |
     Then the account balances should be updated as follows:
-      | Account Number | Currency | New Balance   |
-      | A-12345        | USD      | $600          |
-      | B-67890        | EUR      | €1000         |
-      | C-24680        | GBP      | £700          |
-
+      | Account Number | Currency | New Balance |
+      | A-12345        | USD      | $600        |
+      | B-67890        | EUR      | €1000       |
+      | C-24680        | GBP      | £700        |
 
 
   Scenario: Process Orders
@@ -60,3 +59,13 @@ Feature: Banking Operations
 #    List.get(0).get(key)
 #  List.get(0).get(product)
 #  if i wand to get Orange i would write List.get(2).get(Product)
+
+
+  Scenario: Process Orders 2
+    Given the following orders exist in the db:
+      | orderID | product     | quantity |
+      | 101     | Watermelon  | 5        |
+      | 102     | Blueberries | 3        |
+      | 103     | Strawberry  | 2        |
+
+

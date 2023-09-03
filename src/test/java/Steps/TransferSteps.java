@@ -36,9 +36,17 @@ public class TransferSteps {
     }
 
 //    do myself
-    @Given("User is on {string}")
-    public void goToTest(String text){
-        System.out.println("going to test env: " + text);
+
+    @Then("User should see Insufficient funds message")
+    public void user_should_see_Insufficient_funds_message() {
+        System.out.println("test");
+        System.out.println("test");
+
+    }
+
+    @Given("Users on {string}")
+    public void users_on(String envUrl) {
+        System.out.println("going to: " + envUrl);
     }
 
 }
