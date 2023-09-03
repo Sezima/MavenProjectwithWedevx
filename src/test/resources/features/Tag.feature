@@ -1,4 +1,4 @@
-
+@regression @ui
 Feature: User Management
   @smoke
   Scenario: Creating a new user

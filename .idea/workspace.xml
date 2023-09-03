@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/TagSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Tag.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: Tag" />
+        <item itemvalue="Cucumber Java.Feature: Background" />
         <item itemvalue="Cucumber Java.Scenario: Transfer funds from EUR to GBP account" />
         <item itemvalue="Cucumber Java.Scenario: Transfer funds from USD to EUR account" />
         <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
-        <item itemvalue="Cucumber Java.Feature: Background" />
       </list>
     </recent_temporary>
   </component>
