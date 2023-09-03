@@ -3,7 +3,7 @@
 #  Feature: is a title of this Feature file
 #  a Feature:  is like on teest class
 #  one feature file will consist of all tests cases reloated to one particular functionality
-
+@regression
 Feature: Deposit Test
 
 #  wa also have an ability to add more explanation about this feature file
@@ -21,7 +21,7 @@ Feature: Deposit Test
     When Bank account 1 deposits $100 dollars
     Then Bank account 1 should have $1100 in balance
 
-
+@smoke
     Scenario: Money Transfer with enough balance
       Given  User with account number 123456 is registers )
 #      And  is a keyword that helps you avoid repeating the same words (and means given (dry))

@@ -1,5 +1,7 @@
+@regression
 Feature: Banking Operations
 
+@smoke
   Scenario: Transfer funds from USD to EUR account
     Given a bank account with account number "A-12345" and balance "$1000" in USD
     And a bank account with account number "B-67890" and balance "€800" in EUR

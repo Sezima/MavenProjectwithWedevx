@@ -1,5 +1,6 @@
+@regression
 Feature: Transfer
-
+@smoke
   Scenario: Money Transfer with insufficient funds
 #    when the step is not highlighted it means if already on implementation (step def)
     Given User with account number 123456 is registered
@@ -12,6 +13,6 @@ Feature: Transfer
     Scenario: Money transfer with sufficient funds
       Given User with account number 123 is registered
 
-
+@IGNORE
       Scenario: Demo String params
         Given User is on "qa-chase.com"

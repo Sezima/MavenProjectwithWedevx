@@ -1,3 +1,4 @@
+@regression
 Feature: Outlines Demo
 
 #    так выглядит сценарий
@@ -28,7 +29,7 @@ Feature: Outlines Demo
       | value2      |
       | value3      |
 
-
+@smoke
   Scenario Outline: Processing an insurance claim for "<coverageType>"
     Given the customer has "<coverageType>" coverage
     And the customer has a claim with the following details:
