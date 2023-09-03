@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Claim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/BackgroundStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Background.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DatatableTransformers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DatatableTransformers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Outline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Outline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Outlines.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Outlines.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Outlines.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Outlines.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +59,15 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Processing an insurance claim for &quot;&lt;coverage_type&gt;&quot;">
-    <configuration name="Feature: DataTableDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Background">
+    <configuration name="Feature: Background" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Background.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DataTableDemo" />
+      <option name="SUGGESTED_NAME" value="Feature: Background" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Process Orders 2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Demo1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Background.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Process Orders 2$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Process Orders 2$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Process Orders 2" />
+      <option name="NAME_FILTER" value="^Demo1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Demo1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Demo1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +99,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Process Orders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Demo2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Background.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Process Orders$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Process Orders$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Process Orders" />
+      <option name="NAME_FILTER" value="^Demo2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Demo2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Demo2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Demo3" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Background.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MavenJunitWedevx" />
+      <option name="NAME_FILTER" value="^Demo3$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Demo3$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Demo3" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -138,32 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Some scenario name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Outlines.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Some scenario name$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Some scenario name$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Some scenario name" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Background" />
+        <item itemvalue="Cucumber Java.Scenario: Demo3" />
+        <item itemvalue="Cucumber Java.Scenario: Demo2" />
+        <item itemvalue="Cucumber Java.Scenario: Demo1" />
         <item itemvalue="Cucumber Java.Scenario: Processing an insurance claim for &quot;&lt;coverage_type&gt;&quot;" />
-        <item itemvalue="Cucumber Java.Scenario: Some scenario name" />
-        <item itemvalue="Cucumber Java.Scenario: Process Orders 2" />
-        <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
-        <item itemvalue="Cucumber Java.Scenario: Process Orders" />
       </list>
     </recent_temporary>
   </component>
