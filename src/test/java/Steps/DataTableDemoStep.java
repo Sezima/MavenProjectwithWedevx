@@ -3,6 +3,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.datatable.DataTable;
+
+
+import java.util.List;
+import java.util.Map;
+
 public class DataTableDemoStep {
 
 
@@ -35,16 +40,38 @@ public class DataTableDemoStep {
 
     @Given("the following bank accounts with their respective balances:")
     public void the_following_bank_accounts_with_their_respective_balances(DataTable dataTable) {
+        System.out.println(dataTable.cell(1,1));
+        System.out.println(dataTable.cell(3, 2));
 
     }
     @When("I transfer the following amounts between accounts:")
     public void i_transfer_the_following_amounts_between_accounts(DataTable dataTable) {
+        System.out.println(dataTable.cell(2, 2));
 
     }
     @Then("the account balances should be updated as follows:")
     public void the_account_balances_should_be_updated_as_follows(DataTable dataTable) {
 
     }
+
+
+
+
+//    data table to list <Map>
+    @Given("the following orders:")
+    public void the_following_orders(List<Map<String, String>> orders) {
+        System.out.println("product: " + orders.get(0).get("Product"));
+        System.out.println("product: " + orders.get(2).get("Product"));
+        System.out.println("Quantity: " + orders.get(1).get("Quantity"));
+
+        for (Map<String, String> mapMap : orders){
+            System.out.println(mapMap.get("Order ID"));
+            System.out.println(mapMap.get("Product"));
+            System.out.println(mapMap.get("Quantity"));
+        }
+
+    }
+
 
 
 

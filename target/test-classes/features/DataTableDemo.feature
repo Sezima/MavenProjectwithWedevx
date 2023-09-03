@@ -29,7 +29,10 @@ Feature: Banking Operations
 #  this is more easy than previous scenario
   Scenario: Transfer funds between different currency accounts
     Given the following bank accounts with their respective balances:
+#    row index 0
       | Account Number | Currency | Balance   |
+#      row index 1
+#      also with colum
       | A-12345        | USD      | $1000     |
       | B-67890        | EUR      | €800      |
       | C-24680        | GBP      | £500      |
@@ -43,3 +46,17 @@ Feature: Banking Operations
       | A-12345        | USD      | $600          |
       | B-67890        | EUR      | €1000         |
       | C-24680        | GBP      | £700          |
+
+
+
+  Scenario: Process Orders
+    Given the following orders:
+      | Order ID | Product | Quantity |
+      | 101      | Apple   | 5        |
+      | 102      | Banana  | 3        |
+      | 103      | Orange  | 2        |
+
+
+#    List.get(0).get(key)
+#  List.get(0).get(product)
+#  if i wand to get Orange i would write List.get(2).get(Product)

@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/.idea/MavenJunitWedevx.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FirstCucumberDemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DataTableDemoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DataTableDemoStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/DataTableDemo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Transfer funds between different currency accounts">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Process Orders">
     <configuration name="Feature: DataTableDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
@@ -121,15 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Money transfer with sufficient funds" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Process Orders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" />
-      <option name="GLUE" value="Steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Money transfer with sufficient funds$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Money transfer with sufficient funds$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Money transfer with sufficient funds" />
+      <option name="NAME_FILTER" value="^Process Orders$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Process Orders$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Process Orders" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Process Orders" />
         <item itemvalue="Cucumber Java.Scenario: Transfer funds between different currency accounts" />
         <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
         <item itemvalue="Cucumber Java.Scenario: Demo String params" />
         <item itemvalue="Cucumber Java.Feature: HowToRunSenarios" />
-        <item itemvalue="Cucumber Java.Scenario: Money transfer with sufficient funds" />
       </list>
     </recent_temporary>
   </component>
