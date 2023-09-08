@@ -31,11 +31,20 @@ public class DataTableDemoStep {
         throw new io.cucumber.java.PendingException();
     }
 
+
+
     @Then("the account balance for account {string} should be {string}")
     public void the_account_balance_for_account_should_be(String string, String string2) {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
+
+    @Given("User is on {string}")
+    public void user_is_on(String string) {
+    }
+
+
+
 
 
 //    data table below
