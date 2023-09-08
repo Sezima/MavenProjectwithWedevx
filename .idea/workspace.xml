@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/SeleniumIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/LocateById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Safariforpractic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/SendKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/BackgroundStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DataTableDemoStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DatatableTransformers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Outline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/TagSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/TransferSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Background.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DataTableDemo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/FirstCucumberDemo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HowToRunSenarios.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Outlines.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Tag.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/BankAccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Claim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/services/BankingServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/SeleniumIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/justForPractice/SeleniumIntro.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +61,33 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeleniumIntro">
+  <component name="RunManager" selected="Application.SendKeys">
+    <configuration name="LocateById" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.LocateById" />
+      <module name="MavenJunitWedevx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="justForPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Safariforpractic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.Safariforpractic" />
+      <module name="MavenJunitWedevx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="justForPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.SeleniumIntro" />
       <module name="MavenJunitWedevx" />
@@ -94,55 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: FirstCucumberDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FirstCucumberDemo.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MavenJunitWedevx" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FirstCucumberDemo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: HowToRunSenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MavenJunitWedevx" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: HowToRunSenarios" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegressionsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.SendKeys" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="justForPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RegressionsRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendKeys" />
+        <item itemvalue="Application.LocateById" />
+        <item itemvalue="Application.Safariforpractic" />
         <item itemvalue="Application.SeleniumIntro" />
         <item itemvalue="JUnit.SmokeRunner" />
-        <item itemvalue="JUnit.RegressionsRunner" />
-        <item itemvalue="Cucumber Java.Feature: FirstCucumberDemo" />
-        <item itemvalue="Cucumber Java.Feature: HowToRunSenarios" />
       </list>
     </recent_temporary>
   </component>
