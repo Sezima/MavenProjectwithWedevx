@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/LocateBeName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/SendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/SendKeys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocateBeName">
+  <component name="RunManager" selected="Application.SendKeys">
     <configuration name="LocateBeName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.LocateBeName" />
       <module name="MavenJunitWedevx" />
@@ -125,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocateBeName" />
         <item itemvalue="Application.SendKeys" />
+        <item itemvalue="Application.LocateBeName" />
         <item itemvalue="Application.LocateById" />
         <item itemvalue="Application.Safariforpractic" />
         <item itemvalue="Application.SeleniumIntro" />

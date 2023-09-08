@@ -34,6 +34,11 @@ public class SendKeys {
         perAddress.sendKeys("456 Second St.");
 
 
+        //MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1hw9j7s
+        WebElement submit = driver.findElement(By.className("MuiButton-containedPrimary"));
+        submit.click();
+
+
 //        driver.quit();
     }
 }
