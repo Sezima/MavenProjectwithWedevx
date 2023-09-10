@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="24" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="0.423">
+<testcase classname="background demo" name="Demo1" time="0.06">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on "qa-chase.com".............................................undefined
+And user is logged in as "test@gmail.com" "test1Pass".......................skipped
+When user clicks on the transaction.........................................skipped
+Then user should see all transactions.......................................skipped
+]]></failure>
+</testcase>
+<testcase classname="background demo" name="Demo2" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on "qa-chase.com".............................................undefined
+And user is logged in as "test@gmail.com" "test1Pass".......................skipped
+And user balance is 1000....................................................skipped
+When user deposits 200......................................................skipped
+Then user balance should be 1200............................................skipped
+]]></failure>
+</testcase>
+<testcase classname="background demo" name="Demo3" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on "qa-chase.com".............................................undefined
+And user is logged in as "test@gmail.com" "test1Pass".......................skipped
+And user balance is 1000....................................................skipped
+When user withdraws 200.....................................................skipped
+Then user balance should be 800.............................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds from USD to EUR account" time="0.013">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given a bank account with account number "A-12345" and balance "$1000" in USD.undefined
+And a bank account with account number "B-67890" and balance "€800" in EUR..skipped
+When I transfer $300 from account "A-12345" to account "B-67890" in EUR.....skipped
+Then the account balance for account "A-12345" should be "$600".............skipped
+And the account balance for account "B-67890" should be "€1000".............skipped
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds from EUR to GBP account" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given a bank account with account number "B-67890" and balance "€800" in EUR.undefined
+And a bank account with account number "C-24680" and balance "£500" in GBP..skipped
+When I transfer €200 from account "B-67890" to account "C-24680" in GBP.....skipped
+Then the account balance for account "B-67890" should be "€600".............skipped
+And the account balance for account "C-24680" should be "£700"..............skipped
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds from GBP to USD account" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given a bank account with account number "C-24680" and balance "£500" in GBP.undefined
+And a bank account with account number "A-12345" and balance "$1000" in USD.skipped
+When I transfer £100 from account "C-24680" to account "A-12345" in USD.....skipped
+Then the account balance for account "C-24680" should be "£400".............skipped
+And the account balance for account "A-12345" should be "$700"..............skipped
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds between different currency accounts" time="0.047">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the following bank accounts with their respective balances:...........undefined
+When I transfer the following amounts between accounts:.....................skipped
+Then the account balances should be updated as follows:.....................skipped
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Process Orders" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the following orders:.................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Banking Operations" name="Process Orders 2" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the following orders exist in the db:.................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Deposit Test" name="we dive scenario name here" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Bank account 1 exists with $1000 balance..............................undefined
+When Bank account 1 deposits $100 dollars...................................skipped
+Then Bank account 1 should have $1100 in balance............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Deposit Test" name="Money Transfer with enough balance" time="0.003">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User with account number 123456 is registers )........................undefined
+And User with account number 123456 deposited $500..........................skipped
+When User with account number 123456 transfers $300.........................skipped
+And User with account number 123456 transfers $200..........................skipped
+Then User with account number 123456 should have $0 in balance..............skipped
+]]></failure>
+</testcase>
+<testcase classname="Transfer" name="Money Transfer with insufficient funds" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User with account number 123456 is registered.........................undefined
+And User with account number 4210 deposited $1000...........................skipped
+When User with account number 4210 transfers $1100..........................skipped
+Then User with account number 4210 should have $1000 in balance.............skipped
+And User should see Insufficient Funds message..............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Transfer" name="Money transfer with sufficient funds" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User with account number 123 is registered............................undefined
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Test 1" time="0.005">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value1".................................skipped
+Then some expected outcome is achieved with "value1"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Test 2" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value2".................................skipped
+Then some expected outcome is achieved with "value2"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Test 3" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value3".................................skipped
+Then some expected outcome is achieved with "value3"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Some scenario name" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value1".................................skipped
+Then some expected outcome is achieved with "value1"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Some scenario name 2" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value2".................................skipped
+Then some expected outcome is achieved with "value2"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Some scenario name 3" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given some precondition.....................................................undefined
+When some action is performed with "value3".................................skipped
+Then some expected outcome is achieved with "value3"........................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Health&quot;" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the customer has "Health" coverage....................................undefined
+And the customer has a claim with the following details:....................skipped
+When the customer submits the claim.........................................skipped
+Then the claim should be processed successfully.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Auto&quot;" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the customer has "Auto" coverage......................................undefined
+And the customer has a claim with the following details:....................skipped
+When the customer submits the claim.........................................skipped
+Then the claim should be processed successfully.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Home&quot;" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the customer has "Home" coverage......................................undefined
+And the customer has a claim with the following details:....................skipped
+When the customer submits the claim.........................................skipped
+Then the claim should be processed successfully.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="User Management" name="Creating a new user" time="0.002">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user is on the registration page..................................undefined
+When the user fills in the registration form................................skipped
+Then the user should be registered successfully.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="User Management" name="Editing user information" time="0.001">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user is logged in.................................................undefined
+When the user navigates to the profile page.................................skipped
+Then the user can edit their information....................................skipped
+]]></failure>
+</testcase>
+</testsuite>

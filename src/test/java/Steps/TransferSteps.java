@@ -44,9 +44,29 @@ public class TransferSteps {
 
     }
 
-    @Given("Users on {string}")
-    public void users_on(String envUrl) {
-        System.out.println("going to: " + envUrl);
+//    @Given("Users on {string}")
+//    public void users_on(String envUrl) {
+//        System.out.println("going to: " + envUrl);
+//    }
+
+
+
+    @Given("user is on {string}")
+    public void user_is_on(String string) {
+
     }
+    @Given("user is logged in as {string} {string}")
+    public void user_is_logged_in_as(String string, String string2) {
+
+    }
+    @When("user clicks on the transaction")
+    public void user_clicks_on_the_transaction() {
+
+    }
+    @Then("user should see all transactions")
+    public void user_should_see_all_transactions() {
+
+    }
+
 
 }
