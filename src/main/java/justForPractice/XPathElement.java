@@ -53,3 +53,14 @@ public class XPathElement {
 
     }
 }
+
+
+/*
+- ***findElement*** method is used to access a single web element on a page.
+- It returns the first matching element.
+- It throws a **NoSuchElementException**
+
+exception when it fails to find the element.
+
+- ***findElements*** method returns the **list** of all matching elements.
+- It returns an **empty list** when the element is not available or doesn’t exist on the page. It doesn’t throw NoSuchElementException.*/

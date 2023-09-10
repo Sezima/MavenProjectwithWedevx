@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/LocatedByLinkText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/XPathElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/xPATH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/FindElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BackgroundStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BackgroundStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +58,9 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XPathElement">
-    <configuration name="LocatedByLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.LocatedByLinkText" />
+  <component name="RunManager" selected="Application.FindElements">
+    <configuration name="FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.FindElements" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.SendKeys" />
+    <configuration name="LocatedByLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.LocatedByLinkText" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindElements" />
         <item itemvalue="Application.XPathElement" />
         <item itemvalue="Application.xPATH" />
         <item itemvalue="Application.LocatedByLinkText" />
         <item itemvalue="JUnit.RegressionsRunner" />
-        <item itemvalue="Application.SendKeys" />
       </list>
     </recent_temporary>
   </component>
