@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/PageNabigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/XpathWithText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/XpathWithText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.json" afterDir="false" />
-    </list>
+    <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

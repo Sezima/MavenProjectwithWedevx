@@ -24,7 +24,17 @@ public class PageNabigation {
         driver.navigate().forward();
         Thread.sleep(2000);
 
-        Thread.sleep(10000);
+
+        WebElement firstNameTxtBox = driver.findElement(By.id("firstName"));
+        firstNameTxtBox.sendKeys("Sezim");
+
+        driver.navigate().refresh();
+        Thread.sleep(2000);
+
+
+        driver.navigate().to("https://dbank-qa.wedevx.co/bank/")
+
+        Thread.sleep(8000);
         driver.close();
     }
 
