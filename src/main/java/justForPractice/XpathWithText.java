@@ -25,3 +25,12 @@ public class XpathWithText {
         doubleClickMeButton.click();
     }
 }
+
+
+//input[starts-with(@id, 'abc')]
+
+//input[ends-with(@id, 'abc')]
+
+//input[ends-with(text(), 'abc')]
+
+//input[contains(text(), 'abc')]
