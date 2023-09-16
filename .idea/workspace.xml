@@ -55,7 +55,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PageNabigation">
+  <component name="RunManager" selected="Application.PageLoadTimeout">
     <configuration name="FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.FindElements" />
       <module name="MavenJunitWedevx" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageNabigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.PageNabigation" />
+    <configuration name="PageLoadTimeout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.PageLoadTimeout" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XPathElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.XPathElement" />
+    <configuration name="PageNabigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.PageNabigation" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PageLoadTimeout" />
         <item itemvalue="Application.PageNabigation" />
         <item itemvalue="JUnit.RegressionsRunner" />
         <item itemvalue="Application.XpathWithText" />
         <item itemvalue="Application.FindElements" />
-        <item itemvalue="Application.XPathElement" />
       </list>
     </recent_temporary>
   </component>

@@ -32,7 +32,7 @@ public class PageNabigation {
         Thread.sleep(2000);
 
 
-        driver.navigate().to("https://dbank-qa.wedevx.co/bank/")
+        driver.navigate().to("https://dbank-qa.wedevx.co/bank/");
 
         Thread.sleep(8000);
         driver.close();
