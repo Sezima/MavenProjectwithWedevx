@@ -1,16 +1,17 @@
-package Steps;
+package steps;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 
 public class Hooks {
-    @io.cucumber.java.Before(order = 3)
+
+    @Before(order = 3)
     public void setUp(){
         System.out.println("Setting up in Cucumber before hooks");
     }
 
-    @io.cucumber.java.Before(order = 1)
+    @Before(order = 1)
     public void setUpDatabase() {
         // Code to set up database
         System.out.println("Code to set up database before hooks");
@@ -31,5 +32,4 @@ public class Hooks {
     public static void globalSetup(){
         System.out.println("It should run once before the entire suite");
     }
-
 }

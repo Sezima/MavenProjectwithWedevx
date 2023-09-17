@@ -6,7 +6,7 @@ Feature: User Management
     When the user fills in the registration form
     Then the user should be registered successfully
 
-  @regression
+  @register
   Scenario: Editing user information
     Given the user is logged in
     When the user navigates to the profile page

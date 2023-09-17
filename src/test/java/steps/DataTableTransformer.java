@@ -1,4 +1,4 @@
-package Steps;
+package steps;
 
 import io.cucumber.java.DataTableType;
 import models.Claim;
@@ -6,17 +6,14 @@ import models.Order;
 
 import java.util.Map;
 
-public class DatatableTransformers {
-//        why we use Map 'cause cucumber will be converting each row into a map
+public class DataTableTransformer {
     @DataTableType
     public Order dataEntry(Map<String,String> entry){
-
         int orderId = Integer.valueOf(entry.get("orderID"));
         String product = entry.get("product");
         int quantity = Integer.valueOf(entry.get("quantity"));
         return new Order(orderId, product, quantity);
     }
-
 
     @DataTableType
     public Claim dataEntry2(Map<String,String> entry){
@@ -28,5 +25,4 @@ public class DatatableTransformers {
         String supportingDocuments = entry.get("supportingDocuments");
         return new Claim(claimID, amount, date, description, supportingDocuments);
     }
-
 }

@@ -1,8 +1,8 @@
 package models;
 
 public class Claim {
-//    | coverage_type | claim_id | amount | date      | description             | supporting_documents |
-private String claimId;
+
+    private String claimId;
     private double amount;
     private String date;
     private String description;
@@ -55,5 +55,4 @@ private String claimId;
     public void setSupportingDocuments(String supportingDocuments) {
         this.supportingDocuments = supportingDocuments;
     }
-
 }

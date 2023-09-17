@@ -1,5 +1,4 @@
-package Steps;
-
+package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -7,20 +6,20 @@ import models.Claim;
 
 import java.util.List;
 
+public class ScenarioOutlineSteps {
 
-public class Outline {
 
     @Given("some precondition")
     public void some_precondition() {
-        System.out.println("given pre-condition step");
+        System.out.println("some precondition step");
     }
     @When("some action is performed with {string}")
     public void some_action_is_performed_with(String string) {
-        System.out.println("when step: " + string);
+        System.out.println("when step " + string);
     }
     @Then("some expected outcome is achieved with {string}")
     public void some_expected_outcome_is_achieved_with(String string) {
-        System.out.println("then step: " + string);
+        System.out.println("then step " + string);
     }
 
 
@@ -51,7 +50,4 @@ public class Outline {
     public void the_claim_should_be_processed_successfully() {
         System.out.println("Validate");
     }
-
-
-
 }

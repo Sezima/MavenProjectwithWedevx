@@ -1,17 +1,15 @@
 package models;
 
 public class Customer {
-
     private String name;
     private String customerId;
-    private  BancAccount bancAccount;
+    private BankAccount bankAccount;
 
-    public Customer(String name, String customerId, BancAccount bancAccount) {
+    public Customer(String name, String customerId, BankAccount bankAccount) {
         this.name = name;
         this.customerId = customerId;
-        this.bancAccount = bancAccount;
+        this.bankAccount = bankAccount;
     }
-
 
     public String getName() {
         return name;
@@ -21,12 +19,7 @@ public class Customer {
         return customerId;
     }
 
-    public BancAccount getBancAccount() {
-        return bancAccount;
+    public BankAccount getBankAccount() {
+        return bankAccount;
     }
-
-
-
-
-
 }

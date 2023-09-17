@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/ExplicitWait3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/FluentWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BackgroundStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BackgroundStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DataTableDemoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DatatableTransformers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DatatableTransformers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Outline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Outline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/TagSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/TagSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/TransferSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FirstCucumberDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FirstCucumberDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HowToRunSenarios.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Outlines.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Outlines.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Tag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Tag.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/junit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -57,33 +77,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExplicitWait3">
-    <configuration name="ExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.ExplicitWait" />
-      <module name="MavenJunitWedevx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExplicitWait2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.ExplicitWait2" />
-      <module name="MavenJunitWedevx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SmokeRunner">
     <configuration name="ExplicitWait3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.ExplicitWait3" />
       <module name="MavenJunitWedevx" />
@@ -97,12 +91,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.ImplicitWait" />
+    <configuration name="Feature: DataTableDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTableDemo.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: DataTableDemo" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,26 +110,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageLoadTimeout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.PageLoadTimeout" />
+    <configuration name="RegressionRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RegressionRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegressionsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitWedevx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RegressionsRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitWedevx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.SmokeRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeRunner" />
+        <item itemvalue="JUnit.RegressionRunner" />
+        <item itemvalue="JUnit.RegressionsRunner" />
+        <item itemvalue="Cucumber Java.Feature: DataTableDemo" />
         <item itemvalue="Application.ExplicitWait3" />
-        <item itemvalue="Application.ExplicitWait2" />
-        <item itemvalue="Application.ExplicitWait" />
-        <item itemvalue="Application.ImplicitWait" />
-        <item itemvalue="Application.PageLoadTimeout" />
       </list>
     </recent_temporary>
   </component>

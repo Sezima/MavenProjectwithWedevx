@@ -5,7 +5,6 @@ public class Transaction {
     private String type;
     private double amount;
     private String accountId;
-
     private String customerId;
 
     public Transaction(String transactionId, String type, double amount, String accountId, String customerId) {
@@ -35,8 +34,4 @@ public class Transaction {
     public String getCustomerId() {
         return customerId;
     }
-
-
-
-
 }

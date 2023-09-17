@@ -9,5 +9,8 @@
         <module name="MavenJunitWedevx" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-junit" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
