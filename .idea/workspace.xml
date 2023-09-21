@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/ActionsMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/ActionsDragAndDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,20 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ActionsMouse">
+  <component name="RunManager" selected="Application.ActionsDragAndDrop">
+    <configuration name="ActionsDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.ActionsDragAndDrop" />
+      <module name="MavenJunitWedevx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="justForPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActionsMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.ActionsMouse" />
       <module name="MavenJunitWedevx" />
@@ -115,20 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testslack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testslack" />
-      <module name="MavenJunitWedevx" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActionsDragAndDrop" />
         <item itemvalue="Application.ActionsMouse" />
         <item itemvalue="Application.SelectClass" />
         <item itemvalue="Application.CheckBox" />
         <item itemvalue="Application.RadioButton" />
-        <item itemvalue="Application.testslack" />
       </list>
     </recent_temporary>
   </component>
