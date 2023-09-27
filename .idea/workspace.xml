@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/KeyboardActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/sezim/GitFlow2",
+    "last_opened_file_path": "/home/sezim/Desktop/MavenJunitWedevx",
     "onboarding.tips.debug.path": "/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -61,7 +62,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HoverOver">
+  <component name="RunManager" selected="Application.KeyboardActions">
     <configuration name="ActionsDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.ActionsDragAndDrop" />
       <module name="MavenJunitWedevx" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.CheckBox" />
+    <configuration name="HoverOver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.HoverOver" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverOver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.HoverOver" />
+    <configuration name="KeyboardActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.KeyboardActions" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyboardActions" />
         <item itemvalue="Application.HoverOver" />
         <item itemvalue="Application.ActionsDragAndDrop" />
         <item itemvalue="Application.ActionsMouse" />
         <item itemvalue="Application.SelectClass" />
-        <item itemvalue="Application.CheckBox" />
       </list>
     </recent_temporary>
   </component>
