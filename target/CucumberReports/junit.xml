@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.345">
-<testcase classname="Banking Operations" name="Transfer funds from USD to EUR account" time="0.073">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="0.695">
+<testcase classname="background demo" name="Demo1" time="0.113">
+<system-out><![CDATA[Given user is on "qa-chase.com".............................................passed
+And user is logged in as "test@gmail.com" "test1Pass".......................passed
+When user clicks on the transaction.........................................passed
+Then user should see all transactions.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="background demo" name="Demo2" time="0.003">
+<system-out><![CDATA[Given user is on "qa-chase.com".............................................passed
+And user is logged in as "test@gmail.com" "test1Pass".......................passed
+And user balance is 1000....................................................passed
+When user deposits 200......................................................passed
+Then user balance should be 1200............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="background demo" name="Demo3" time="0.006">
+<system-out><![CDATA[Given user is on "qa-chase.com".............................................passed
+And user is logged in as "test@gmail.com" "test1Pass".......................passed
+And user balance is 1000....................................................passed
+When user withdraws 200.....................................................passed
+Then user balance should be 800.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds from USD to EUR account" time="0.008">
 <system-out><![CDATA[Given a bank account with account number "A-12345" and balance "$1000" in USD.passed
 And a bank account with account number "B-67890" and balance "€800" in EUR..passed
 When I transfer $300 from account "A-12345" to account "B-67890" in EUR.....passed
@@ -8,7 +31,37 @@ Then the account balance for account "A-12345" should be "$600".............pass
 And the account balance for account "B-67890" should be "€1000".............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Deposit Tests" name="Money Transfer with enough balance" time="0.003">
+<testcase classname="Banking Operations" name="Transfer funds from EUR to GBP account" time="0.002">
+<system-out><![CDATA[Given a bank account with account number "B-67890" and balance "€800" in EUR.passed
+And a bank account with account number "C-24680" and balance "£500" in GBP..passed
+When I transfer €200 from account "B-67890" to account "C-24680" in GBP.....passed
+Then the account balance for account "B-67890" should be "€600".............passed
+And the account balance for account "C-24680" should be "£700"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds from GBP to USD account" time="0.002">
+<system-out><![CDATA[Given a bank account with account number "C-24680" and balance "£500" in GBP.passed
+And a bank account with account number "A-12345" and balance "$1000" in USD.passed
+When I transfer £100 from account "C-24680" to account "A-12345" in USD.....passed
+Then the account balance for account "C-24680" should be "£400".............passed
+And the account balance for account "A-12345" should be "$700"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Banking Operations" name="Transfer funds between different currency accounts" time="0.008">
+<system-out><![CDATA[Given the following bank accounts with their respective balances:...........passed
+When I transfer the following amounts between accounts:.....................passed
+Then the account balances should be updated as follows:.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Banking Operations" name="Process Orders" time="0.004">
+<system-out><![CDATA[Given the following orders exist:...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Banking Operations" name="Process Orders 2" time="0.003">
+<system-out><![CDATA[Given the following orders exist in the db:.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Deposit Tests" name="Money Transfer with enough balance" time="0.008">
 <system-out><![CDATA[Given User with account number 123456 is registered.........................passed
 When User with account number 123456 transfers $300.........................passed
 And User with account number 123456 transfers $200..........................passed
@@ -23,31 +76,55 @@ Then User with account number 4210 should have $1000.0 in balance...........pass
 And User should see Insufficient funds message..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Health&quot;" time="0.008">
+<testcase classname="Outlines Demo" name="Some scenario name" time="0.007">
+<system-out><![CDATA[Given some precondition.....................................................passed
+When some action is performed with "value1".................................passed
+Then some expected outcome is achieved with "value1"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Outlines Demo" name="Some scenario name 2" time="0.005">
+<system-out><![CDATA[Given some precondition.....................................................passed
+When some action is performed with "value2".................................passed
+Then some expected outcome is achieved with "value2"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Outlines Demo" name="Some scenario name 3" time="0.003">
+<system-out><![CDATA[Given some precondition.....................................................passed
+When some action is performed with "value3".................................passed
+Then some expected outcome is achieved with "value3"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Health&quot;" time="0.002">
 <system-out><![CDATA[Given the customer has "Health" coverage....................................passed
 And the customer has a claim with the following details:....................passed
 When the customer submits the claim.........................................passed
 Then the claim should be processed successfully.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Auto&quot;" time="0.002">
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Auto&quot;" time="0.004">
 <system-out><![CDATA[Given the customer has "Auto" coverage......................................passed
 And the customer has a claim with the following details:....................passed
 When the customer submits the claim.........................................passed
 Then the claim should be processed successfully.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Home&quot;" time="0.002">
+<testcase classname="Outlines Demo" name="Processing an insurance claim for &quot;Home&quot;" time="0.003">
 <system-out><![CDATA[Given the customer has "Home" coverage......................................passed
 And the customer has a claim with the following details:....................passed
 When the customer submits the claim.........................................passed
 Then the claim should be processed successfully.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Management" name="Creating a new user" time="0.002">
+<testcase classname="User Management" name="Creating a new user" time="0.005">
 <system-out><![CDATA[Given the user is on the registration page..................................passed
 When the user fills in the registration form................................passed
 Then the user should be registered successfully.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Management" name="Editing user information" time="0.002">
+<system-out><![CDATA[Given the user is logged in.................................................passed
+When the user navigates to the profile page.................................passed
+Then the user can edit their information....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

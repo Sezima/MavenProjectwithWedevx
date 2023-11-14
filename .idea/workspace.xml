@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/KeyboardActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/AddNewCustomer16171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Class17141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/DragAndDrop3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/JavaScriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/justForPractice/DropDown2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/sezim/Desktop/MavenJunitWedevx",
-    "onboarding.tips.debug.path": "/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sezim/Downloads/maven-junitFixed&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -62,9 +68,9 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KeyboardActions">
-    <configuration name="ActionsDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.ActionsDragAndDrop" />
+  <component name="RunManager" selected="JUnit.RegressionRunner">
+    <configuration name="AddNewCustomer16171" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.AddNewCustomer16171" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.ActionsMouse" />
+    <configuration name="Class17141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.Class17141" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverOver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.HoverOver" />
+    <configuration name="DragAndDrop3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.DragAndDrop3" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.KeyboardActions" />
+    <configuration name="DropDown2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.DropDown2" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -115,26 +121,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.SelectClass" />
+    <configuration name="RegressionRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RegressionRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KeyboardActions" />
-        <item itemvalue="Application.HoverOver" />
-        <item itemvalue="Application.ActionsDragAndDrop" />
-        <item itemvalue="Application.ActionsMouse" />
-        <item itemvalue="Application.SelectClass" />
+        <item itemvalue="JUnit.RegressionRunner" />
+        <item itemvalue="Application.Class17141" />
+        <item itemvalue="Application.DragAndDrop3" />
+        <item itemvalue="Application.DropDown2" />
+        <item itemvalue="Application.AddNewCustomer16171" />
       </list>
     </recent_temporary>
   </component>
