@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/AddNewCustomer16171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Class17141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/DragAndDrop3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/JavaScriptExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/justForPractice/DropDown2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/DataTable18_1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DataTableSteps18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTable18_1_1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/junit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sezim/Downloads/maven-junitFixed&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java",
+    "last_opened_file_path": "/home/sezim/Desktop/MavenJunitWedevx",
+    "onboarding.tips.debug.path": "/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -65,16 +67,17 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="justForPractice" />
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegressionRunner">
-    <configuration name="AddNewCustomer16171" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.AddNewCustomer16171" />
+  <component name="RunManager" selected="Application.PracticeSQL">
+    <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.db.PracticeSQL" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="justForPractice.db.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Class17141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.Class17141" />
+    <configuration name="Scenario: Fill out registration form" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DataTable18_1_1.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
+      <option name="NAME_FILTER" value="^Fill out registration form$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fill out registration form$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Fill out registration form" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDrop3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.DragAndDrop3" />
+    <configuration name="Scenario: Register a new user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createData.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MavenJunitWedevx" />
+      <option name="NAME_FILTER" value="^Register a new user$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register a new user$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register a new user" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.DropDown2" />
+    <configuration name="DataTable18_1_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
@@ -117,6 +132,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="justForPractice" />
+      <option name="MAIN_CLASS_NAME" value="justForPractice.DataTable18_1_1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PracticeSQL" />
+        <item itemvalue="Cucumber Java.Scenario: Fill out registration form" />
+        <item itemvalue="JUnit.DataTable18_1_1" />
+        <item itemvalue="Cucumber Java.Scenario: Register a new user" />
         <item itemvalue="JUnit.RegressionRunner" />
-        <item itemvalue="Application.Class17141" />
-        <item itemvalue="Application.DragAndDrop3" />
-        <item itemvalue="Application.DropDown2" />
-        <item itemvalue="Application.AddNewCustomer16171" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +183,12 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create model BankAccount,Customer,Service" />
