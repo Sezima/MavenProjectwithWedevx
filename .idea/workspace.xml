@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/SimpleClickOnComplexCheckboxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/SimpleClickOnComplexCheckboxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/justForPractice/SimpleClickOnComplexCheckboxes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleClickOnComplexCheckboxes">
+  <component name="RunManager" selected="Application.PracticeSQL">
     <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.db.PracticeSQL" />
       <module name="MavenJunitWedevx" />
@@ -147,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleClickOnComplexCheckboxes" />
         <item itemvalue="Application.PracticeSQL" />
+        <item itemvalue="Application.SimpleClickOnComplexCheckboxes" />
         <item itemvalue="Cucumber Java.Scenario: Fill out registration form" />
         <item itemvalue="JUnit.DataTable18_1_1" />
         <item itemvalue="Cucumber Java.Scenario: Register a new user" />
@@ -184,5 +185,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create model BankAccount,Customer,Service" />
     <option name="LAST_COMMIT_MESSAGE" value="create model BankAccount,Customer,Service" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/justForPractice/SimpleClickOnComplexCheckboxes.java</url>
+          <line>10</line>
+          <properties class="justForPractice.SimpleClickOnComplexCheckboxes" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
