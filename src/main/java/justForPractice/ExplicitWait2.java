@@ -22,12 +22,12 @@ public class ExplicitWait2 {
         dynamicProperties.click();
 
 
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        WebElement secondway = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("visibleAfter")));
+//        WebDriverWait wait = new WebDriverWait(driver, );
+//        WebElement secondway = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("visibleAfter")));
 //        WebElement visibleAfterButton = driver.findElement(By.id("visibleAfter"));
 //        visibleAfterButton.click();
 
-        secondway.click();
+//        secondway.click();
 
 
     }

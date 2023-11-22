@@ -21,9 +21,9 @@ public class ExplicitWait3 {
         dynamicProperties.click();
 
 
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.attributeContains(By.id("colorVhange"), "style", "color:red;"));
-        WebElement color = driver.findElement(By.id("colorChange"));
+//        WebDriverWait wait = new WebDriverWait(driver, 5);
+//        wait.until(ExpectedConditions.attributeContains(By.id("colorVhange"), "style", "color:red;"));
+//        WebElement color = driver.findElement(By.id("colorChange"));
 
 
         //ошибка так как надо дописать ExpectedConditions. ,,, что я захочу и что подойдет сюда

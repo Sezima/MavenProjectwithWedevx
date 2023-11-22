@@ -23,10 +23,10 @@ public class ExplicitWait {
 
 
 //webDriverWait is actually explicit wait
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        WebElement after5 = wait.until(ExpectedConditions.elementToBeClickable(By.id("enableAfter")));
-
-        after5.click();
+//        WebDriverWait wait = new WebDriverWait(driver, 5);
+//        WebElement after5 = wait.until(ExpectedConditions.elementToBeClickable(By.id("enableAfter")));
+//
+//        after5.click();
 
 
 

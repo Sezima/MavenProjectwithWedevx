@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -61,10 +62,10 @@ public class DataTable18_1_1 {
     @Test
     @Order(2)
     public void addressData() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+//        WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        WebElement addressTxt = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("address")));
-        addressTxt.sendKeys("123 Jedi Temple");
+//        WebElement addressTxt = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("address")));
+//        addressTxt.sendKeys("123 Jedi Temple");
 
         WebElement localityTxt = driver.findElement(By.id("locality"));
         localityTxt.sendKeys("Coruscant");
@@ -101,8 +102,8 @@ public class DataTable18_1_1 {
     @Test
     @Order(3)
     public void validateAccountCreation() {
-        WebDriverWait wait = new WebDriverWait(driver, 30);
 
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         // Increase the wait time for the success element
         WebElement successTxt = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='Success']")));
         assertEquals("Success", successTxt.getText());
