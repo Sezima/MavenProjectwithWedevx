@@ -3,7 +3,7 @@ package justForPractice.db;
 import java.sql.*;
 
 public class PracticeSQL {
-
+//what is jdbs?
     public static void main(String[] args) throws SQLException {
         //database URL (ip or hostname), username, password
 
@@ -12,11 +12,11 @@ public class PracticeSQL {
 
 //String url = "jdbs:mysql://hostname:port/defaultschemaname"
 
-        String url = "jdbc:mysql://3.249.240.23:3306/forcheck";
+        String url = "jdbc:mysql://3.249.240.23:3306/sezimosm148";
 
-        String username = "forcheck";
+        String username = "sezimosm148";
 
-        String password = "xgcotqpavifizurk";
+        String password = "rhznpjlawootxatm";
 
 //tell the jdbs which driver to use
 

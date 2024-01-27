@@ -82,8 +82,8 @@ public class AlertChecking {
     }
     @Then("user should be displayed with error message")
     public void user_should_be_displayed_with_error_message() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.alertIsPresent());
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        wait.until(ExpectedConditions.alertIsPresent());
         Alert alert1 = driver.switchTo().alert();
         System.out.println(alert1.getText());
         alert1.accept();

@@ -32,11 +32,11 @@ public class DBUtils {
          * включающий IP-адрес (3.249.240.23), номер порта (3306) и имя базы данных (forcheck). Username and password
          */
 
-        String url = "jdbc:mysql://3.249.240.23:3306/forcheck";
+        String url = "jdbc:mysql://3.249.240.23:3306/sezimosm148";
 
-        String username = "forcheck";
+        String username = "sezimosm148";
 
-        String password = "xgcotqpavifizurk";
+        String password = "rhznpjlawootxatm";
 
         try {
             /**
