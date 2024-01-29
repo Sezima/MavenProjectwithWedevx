@@ -5,81 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/BookSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/CheckingModal16_17_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/GlobusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/SeleniumPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Understand_7_5_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Value16_23_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/WorkingWithTable16_21_New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/WorkingwithTable16_21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/class_9_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/java24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/seleniumPractice16_26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/slideGpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/slider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/studentTaskDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/xpath16_20_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wedevxPlatform/EncodeTheString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/RegistrationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/MockData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/digitalbank.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/MavenJunitWedevx-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/BookSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/CheckingModal16_17_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/GlobusTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/SeleniumPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/Understand_7_5_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/Value16_23_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/WorkingWithTable16_21_New.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/WorkingwithTable16_21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/class_9_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/seleniumPractice16_26.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/slideGpt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/slider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/studentTaskDropDown.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/justForPractice/xpath16_20_4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wedevxPlatform/EncodeTheString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-models.BankAccountTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-services.BankingServiceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/models.BankAccountTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/services.BankingServiceTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/properties/digitalbank.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/RegistrationSteps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/MockData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/checking/NewChecking.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/savings/NewSavings.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/DataTable18_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/DataTable18_1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/MultipleBrowsersSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/MultipleBrowsersSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/db/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/justForPractice/AlertChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/justForPractice/AlertChecking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/DataTable18_1_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/MultipleBrowsersSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/justForPractice/MultipleBrowsersSetUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/db/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/justForPractice/db/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/justForPractice/db/PracticeSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/justForPractice/db/PracticeSQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/justForPractice/AlertChecking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/justForPractice/AlertChecking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/RegistrationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/RegistrationSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/features/LoginAndRegistration/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,45 +49,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BookSort.executor": "Run",
-    "Application.CheckingModal16_17_1.executor": "Run",
-    "Application.EncodeTheString.executor": "Run",
-    "Application.FindElements.executor": "Run",
-    "Application.GlobusTest.executor": "Run",
-    "Application.PracticeSQL.executor": "Run",
-    "Application.Understand_7_5_2.executor": "Run",
-    "Application.Value16_23_3.executor": "Run",
-    "Application.class_9_3.executor": "Run",
-    "Application.slideGpt.executor": "Run",
-    "Application.slider.executor": "Run",
-    "Application.studentTaskDropDown.executor": "Run",
-    "Cucumber Java.Feature: Registration.executor": "Run",
-    "Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data.executor": "Run",
-    "Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data.executor": "Run",
-    "JUnit.RegressionRunner.executor": "Run",
-    "JUnit.SeleniumPractice.executor": "Run",
-    "JUnit.SeleniumPractice.test1.executor": "Run",
-    "JUnit.SeleniumPracticeTest.executor": "Run",
-    "JUnit.SmokeRunner.executor": "Run",
-    "JUnit.seleniumPractice16_26.test1.executor": "Run",
-    "Maven.MavenJunitWedevx [clean].executor": "Run",
-    "Maven.MavenJunitWedevx [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java",
-    "last_opened_file_path": "/home/sezim/Downloads/digital-bank-acceptance-tests",
-    "onboarding.tips.debug.path": "/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BookSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckingModal16_17_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GlobusTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeSQL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Understand_7_5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Value16_23_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class_9_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.slideGpt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.slider.executor&quot;: &quot;Run&quot;,
+    &quot;Application.studentTaskDropDown.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Registration.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegressionRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeleniumPractice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeleniumPractice.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeleniumPracticeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SmokeRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.seleniumPractice16_26.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MavenJunitWedevx [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MavenJunitWedevx [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sezim/Downloads/digital-bank-acceptance-tests_3-master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -164,7 +104,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data">
+  <component name="RunManager" selected="Cucumber Java.Feature: Registration">
     <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justForPractice.db.PracticeSQL" />
       <module name="MavenJunitWedevx" />
@@ -254,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data" />
         <item itemvalue="Cucumber Java.Feature: Registration" />
+        <item itemvalue="Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data" />
         <item itemvalue="Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" />
         <item itemvalue="Application.PracticeSQL" />
         <item itemvalue="JUnit.SmokeRunner" />

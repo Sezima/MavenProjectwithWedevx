@@ -83,6 +83,10 @@ public class RegistrationPage extends  BasePage{
     @FindBy(xpath = "//span[contains(text(), 'Registration Successful. Please Login.')]")
     private WebElement messageLabel;
 
+    @FindBy(xpath = "//button[contains(text(),'Next')]")
+    WebElement nextBtn;
+
+
     public void fillOutRegistrationForm(List<Map<String, String>> registrationPageTestDataListOfMap) {
 
         Map<String, String> firstRow = registrationPageTestDataListOfMap.get(0);
@@ -220,5 +224,10 @@ public class RegistrationPage extends  BasePage{
 
         }
     }
+
+    public void clickNextButton(){
+        nextBtn.click();
+    }
+
 
 }

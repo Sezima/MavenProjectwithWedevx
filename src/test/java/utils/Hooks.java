@@ -1,25 +1,37 @@
-package steps;
+package utils;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
+import utils.DBUtils;
 import utils.Driver;
 
 import static utils.Driver.getDriver;
 
 public class Hooks {
 
+    @Before()
+    public void establishConnectionToDB(Scenario scenario){
+        DBUtils.establishConnection();
+    }
+
     @Before("not @Registration")
     public void the_user_is_on_dbank_homepage() {
+
         getDriver().get("https://dbank-qa.wedevx.co/bank/login");
     }
+
 
     @After("not @NegativeRegistrationCases")
     public void afterEachScenario(Scenario scenario){
         Driver.takeScreenShot(scenario);
         Driver.closeDriver();
     }
+
+    @AfterAll()
+    public static void closeConnectionToDB(){
+        DBUtils.closeConnection();
+    }
+
+
 
 //    @Before(order = 3)
 //    public void setUp(){

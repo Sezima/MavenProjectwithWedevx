@@ -6,8 +6,9 @@ steps/DataTableTransformer.class
 runners/SmokeRunner.class
 models/Order.class
 steps/ScenarioOutlineSteps.class
-steps/Hooks.class
 steps/BackgroundSteps.class
+utils/DBUtils.class
+utils/BrowserHelper.class
 utils/Driver.class
 steps/RegistrationSteps.class
 pages/BasePage.class
@@ -17,5 +18,6 @@ steps/TagsSteps.class
 models/BankAccountTest.class
 steps/TransferSteps.class
 utils/ConfigReader.class
+utils/Hooks.class
 justForPractice/AlertChecking.class
 utils/MockData.class

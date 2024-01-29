@@ -2,8 +2,10 @@
 Feature: Digital Bank Registration Page
 
   Background:
+#    Given The user with "test2@gmail.co" is not in DB
+#    And User navigates to digital Bank signup page
     Given User navigates to digital Bank signup page
-
+@Test
   Scenario: Positive Case. As a user, I want to successfully create a Digital Bank account
     When User creates account with following fields
       | title | firstName | lastName | gender | dob        | ssn         | email                | password   | address    | locality | region | postalCode | country | homePhone  | mobilePhone | workPhone  | termsCheckMark |

@@ -1,7 +1,6 @@
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/RegistrationSteps.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/MockData.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/services/BankingServiceTest.java
-/home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/Hooks.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/DataTablesDemoSteps.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/ConfigReader.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/Driver.java
@@ -11,8 +10,11 @@
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/DataTableTransformer.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/runners/SmokeRunner.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/DataTableSteps18.java
+/home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/Hooks.java
+/home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/DBUtils.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/pages/BasePage.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/TransferSteps.java
+/home/sezim/Desktop/MavenJunitWedevx/src/test/java/utils/BrowserHelper.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/models/BankAccountTest.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/models/Claim.java
 /home/sezim/Desktop/MavenJunitWedevx/src/test/java/steps/ScenarioOutlineSteps.java
