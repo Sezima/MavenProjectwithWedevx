@@ -1,6 +1,8 @@
 package utils;
 
 import java.sql.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -77,5 +79,48 @@ public class DBUtils {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+
+    public static void deleteUser(String email, String ssn) throws SQLException {
+
+        String querySsnForUserProfile = String.format("DELETE FROM user_profile WHERE ssn =\"%s\"", ssn);
+        String queryEmailForUserProfile = String.format("DELETE FROM user_profile WHERE email_address=\"%s\"", email);
+        String queryEmailForUsers = String.format("DELETE FROM users WHERE username=\"%s\"", email);
+
+
+        String queryToGetNextValInHibernateSequence = String.format("SELECT * FROM hibernate_sequence");
+        List<Map<String, Object>> nextValList = runSQLSelectQuery(queryToGetNextValInHibernateSequence);
+        runSQLUpdateQuery(queryEmailForUserProfile);
+        DBUtils.runSQLUpdateQuery(queryEmailForUsers);
+        DBUtils.runSQLUpdateQuery(querySsnForUserProfile);
+    }
+
+
+    public static String formatSqlDate(Object sqlDate) {
+        if (sqlDate == null) {
+            return null;
+        }
+        // Parse SQL date and format it to the desired format
+        String date = dateFormat(sqlDate.toString());
+        LocalDateTime dateTime = LocalDateTime.parse(date, DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss"));
+        return dateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm"));
+    }
+
+    private static String dateFormat(String date) {
+        // Splitting the date into date and time parts
+        String[] parts = date.split("T");
+
+        // Extracting the hour part
+        String[] timeParts = parts[1].split(":");
+        int hour = Integer.parseInt(timeParts[0]);
+        if(hour>12){
+            hour%=12;
+        }
+        // Ensuring the hour part is in two-digit format
+        String formattedHour = String.format("%02d", hour);
+
+        // Constructing the formatted date
+        return parts[0] + "T" + formattedHour + ":" + timeParts[1] + ":" + timeParts[2];
     }
 }

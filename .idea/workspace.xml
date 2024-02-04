@@ -5,21 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e300163-cd33-4b17-91bf-4cf6147c8c31" name="Changes" comment="create model BankAccount,Customer,Service">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/checking/NewChecking.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/savings/NewSavings.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/RestAPI/GORESTPOST_24_2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/RestAPI/GorestGet_24_2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/RestAPI/RestAssured1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Week21_Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/Week21_Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/AutomateAPITesting/GORESTPOST_24_2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/AccountModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/AccountOwnershipModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/AccountResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/AccountStandingModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/AccountTypeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/domains/UserProfileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/runners/ApiRegressionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/AccountSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/UserSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/dataTransformers/DataTableTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/utils/ObjectMapperUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/utils/RestHttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api.features/account/AccountOwner.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api.features/account/CreateAccount.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/RegistrationSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/RegistrationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/RegistrationSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/features/LoginAndRegistration/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/digitalbank.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/digitalbank.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/digitalbank.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/digitalbank.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,47 +66,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BookSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckingModal16_17_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeTheString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GlobusTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PracticeSQL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Understand_7_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Value16_23_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.class_9_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.slideGpt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.slider.executor&quot;: &quot;Run&quot;,
-    &quot;Application.studentTaskDropDown.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: Registration.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegressionRunner.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SeleniumPractice.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SeleniumPractice.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SeleniumPracticeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SmokeRunner.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.seleniumPractice16_26.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenJunitWedevx [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenJunitWedevx [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sezim/Downloads/digital-bank-acceptance-tests_3-master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BookSort.executor": "Run",
+    "Application.CheckingModal16_17_1.executor": "Run",
+    "Application.EncodeTheString.executor": "Run",
+    "Application.FindElements.executor": "Run",
+    "Application.GORESTPOST_24_2_2.executor": "Run",
+    "Application.GlobusTest.executor": "Run",
+    "Application.GorestGet_24_2_1.executor": "Run",
+    "Application.PracticeSQL.executor": "Run",
+    "Application.RestAssured1.executor": "Run",
+    "Application.Understand_7_5_2.executor": "Run",
+    "Application.Value16_23_3.executor": "Run",
+    "Application.Week21_Exercise2.executor": "Run",
+    "Application.Week21_Exercise3.executor": "Run",
+    "Application.class_9_3.executor": "Run",
+    "Application.justForPractice.RestAPI.GORESTPOST_24_2_2.executor": "Run",
+    "Application.slideGpt.executor": "Run",
+    "Application.slider.executor": "Run",
+    "Application.studentTaskDropDown.executor": "Run",
+    "Cucumber Java.Feature: AccountOwner.executor": "Run",
+    "Cucumber Java.Feature: CreateAccount.executor": "Run",
+    "Cucumber Java.Feature: Registration.executor": "Run",
+    "Cucumber Java.Scenario: Get account owner of a valid account.executor": "Run",
+    "Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data.executor": "Run",
+    "Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data.executor": "Run",
+    "JUnit.RegressionRunner.executor": "Run",
+    "JUnit.SeleniumPractice.executor": "Run",
+    "JUnit.SeleniumPractice.test1.executor": "Run",
+    "JUnit.SeleniumPracticeTest.executor": "Run",
+    "JUnit.SmokeRunner.executor": "Run",
+    "JUnit.seleniumPractice16_26.test1.executor": "Run",
+    "Maven.MavenJunitWedevx [clean].executor": "Run",
+    "Maven.MavenJunitWedevx [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/sezim/Desktop/MavenAndCucumber/MavenJunitWedevx/src/test/java",
+    "last_opened_file_path": "/home/sezim/Desktop/MavenJunitWedevx",
+    "onboarding.tips.debug.path": "/home/sezim/Desktop/MavenJunitWedevx/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/justForPractice" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
@@ -104,13 +133,13 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Registration">
-    <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="justForPractice.db.PracticeSQL" />
+  <component name="RunManager" selected="Application.justForPractice.RestAPI.GORESTPOST_24_2_2">
+    <configuration name="GORESTPOST_24_2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.AutomateAPITesting.GORESTPOST_24_2_2" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="justForPractice.db.*" />
+          <option name="PATTERN" value="api.AutomateAPITesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,18 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="GorestGet_24_2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.RestAPI.GorestGet_24_2_1" />
       <module name="MavenJunitWedevx" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Registration" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="justForPractice.RestAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="RestAssured1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.RestAPI.RestAssured1" />
       <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Negative Test Case\. As a Digital Bank admin\, I want to make sure the user can not register without all valid data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative Test Case\. As a Digital Bank admin\, I want to make sure the user can not register without all valid data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="justForPractice.RestAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Week21_Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.Week21_Exercise3" />
       <module name="MavenJunitWedevx" />
-      <option name="NAME_FILTER" value="^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="justForPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,28 +186,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="justForPractice.RestAPI.GORESTPOST_24_2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.RestAPI.GORESTPOST_24_2_2" />
       <module name="MavenJunitWedevx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="justForPractice.RestAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.SmokeRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Registration" />
-        <item itemvalue="Cucumber Java.Scenario: Negative Test Case. As a Digital Bank admin, I want to make sure the user can not register without all valid data" />
-        <item itemvalue="Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" />
-        <item itemvalue="Application.PracticeSQL" />
-        <item itemvalue="JUnit.SmokeRunner" />
+        <item itemvalue="Application.justForPractice.RestAPI.GORESTPOST_24_2_2" />
+        <item itemvalue="Application.GorestGet_24_2_1" />
+        <item itemvalue="Application.RestAssured1" />
+        <item itemvalue="Application.GORESTPOST_24_2_2" />
+        <item itemvalue="Application.Week21_Exercise3" />
       </list>
     </recent_temporary>
   </component>

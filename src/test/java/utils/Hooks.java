@@ -13,11 +13,11 @@ public class Hooks {
         DBUtils.establishConnection();
     }
 
-    @Before("not @Registration")
-    public void the_user_is_on_dbank_homepage() {
-
-        getDriver().get("https://dbank-qa.wedevx.co/bank/login");
-    }
+//    @Before("not @Registration")
+//    public void the_user_is_on_dbank_homepage() {
+//
+//        getDriver().get("https://dbank-qa.wedevx.co/bank/login");
+//    }
 
 
     @After("not @NegativeRegistrationCases")
